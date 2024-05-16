@@ -7,3 +7,8 @@ variable "location" {
     default = "eastus"
     description = "location where project is hosted"
 }
+
+variable "environment" {
+    default = "dev"
+    description = "host in the environment"
+}
